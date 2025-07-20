@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Promoções Especiais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    /* BARRA SUPERIOR */
+    .topbar {
+      background-color: #f53d2d;
+      color: #444;
+      font-size: 13px;
+      padding: 5px 30px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .topbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #f53d2d;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-area img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .logo-area span {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* CONTAINER PRINCIPAL */
+    .container {
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    /* CARD DE PRODUTO */
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f53d2d;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .card a:hover {
+      background-color: #c73225;
+    }
+
+    /* RODAPÉ */
+    footer {
+      background-color: #eee;
+      color: #333;
+      padding: 20px 30px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPO SUPERIOR -->
+  <div class="topbar">
+    <a href="#">Central do Vendedor</a>
+    <a href="#">Vender</a>
+    <a href="#">Baixe o App</a>
+    <a href="#">Siga-nos</a>
+  </div>
+
+  <!-- HEADER PRINCIPAL -->
+  <header>
+    <div class="logo-area">
+      <img src="https://stonkstutors.com/wp-content/uploads/2022/01/Vendedor-en-la-aplicacion-Shopee.jpg" alt="Logo">
+      <span>Shopee</span>
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Promoções</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- CARDS DE PRODUTOS -->
+  <div class="container">
+
+    <!-- CARD 1 -->
+    <div class="card">
+      <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd74-lw42t60u7qm926@resize_w450_nl.webp" alt="Produto 1">
+      <div class="card-content">
+        <h3>Multimidia</h3>
+        <p>Reserve sua promoção de 100 Reais mediante locais promocionais.</p>
+        <a href="https://iplogger.com/Snrspee" target="_blank">Ver Produto</a>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+      <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd48-lw42svi3lz7n4e.webp" alt="Produto 2">
+      <div class="card-content">
+        <h3>Midia digital para carro</h3>
+        <p>Ofertas especiais disponíveis por tempo limitado.</p>
+        <a href="https://iplogger.com/Snrspee" target="_blank">Ver Produto</a>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+      <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd3q-lw42uh27dppq7b.webp" alt="Produto 3">
+      <div class="card-content">
+        <h3>Produto 3</h3>
+        <p>Confira as melhores condições para este item.</p>
+        <a href="https://iplogger.com/Snrspee" target="_blank">Ver Produto</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer>
+    &copy; 2025 Minha Loja - Todos os direitos reservados. | 
+    <a href="#">Localização: Rua Exemplo, 123 - São Paulo/SP</a>
+  </footer>
+
+</body>
+</html>
